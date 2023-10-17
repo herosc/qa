@@ -7,15 +7,13 @@ Este é um projeto de estudos referente à automação de testes em QA usando Ru
 - Ruby
 - Cucumber
 - Capybara
-- RBenv
 
 ## Configuração do Ambiente
 
-1. Instale o Ruby através do RBenv:
+1. Instale o Ruby:
 
 ```bash
-rbenv install 2.7.0
-rbenv global 2.7.0
+Vá até https://rubyinstaller.org/donwloads e instale a ultima versão do Ruby com DEVKIT.
 ```
 
 2. Verifique a instalação do Ruby:
@@ -50,10 +48,10 @@ Para executar um teste específico, use o seguinte comando:
 cucumber features/nome_do_teste.feature
 ```
 
+## Extensões e IDE
+
+Recomendo FORTEMENTE a utilização do VSCode com as extensões do Ruby, Cucumber e VSCode Icons. 
+
 ## Contribuindo
 
 Contribuições são bem-vindas! Por favor, leia as diretrizes de contribuição antes de enviar uma solicitação pull.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT.
